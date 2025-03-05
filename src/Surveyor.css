@@ -1,0 +1,215 @@
+/* General container background */
+body {
+  background-color: black;
+  color: white; /* Ensures text is visible on a black background */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Reusable Site Title */
+.site-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  cursor: text;
+  color: white;
+}
+
+/* Dynamic Site Type */
+.site-type {
+  text-align: center;
+  font-size: 20px;
+  color: #ccc;
+  margin-bottom: 20px;
+  cursor: text;
+}
+
+/* Header styling */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  cursor: text;
+  color: white;
+}
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.dropbtn {
+  background-color: #fff;
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dropbtn:hover {
+  background-color: #f7dc6f;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.dropdown-content button {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  text-align: left;
+  cursor: pointer;
+}
+
+.dropdown-content button:hover {
+  background-color: #444;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Table Styling */
+.dynamic-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: #222;
+}
+
+.dynamic-table th,
+.dynamic-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.dynamic-table th {
+  background-color: #333;
+  text-transform: capitalize;
+}
+
+.dynamic-table tr:hover {
+  background-color: #444; /* Highlight row on hover */
+}
+
+/* Enhanced Inputs */
+input {
+  width: 90%; /* Expanded width for better usability */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #333;
+  color: white;
+}
+
+input:focus {
+  outline: none;
+  border-color: #f7dc6f; /* Highlighted border on focus */
+  background-color: #555;
+}
+
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+select:focus {
+  outline: none;
+  border-color: #f7dc6f;
+}
+
+/* Horizontal Alignment for Input with Units */
+.input-with-unit {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  gap: 10px; /* Add spacing between input and select */
+}
+
+input {
+  width: 70%; /* Adjusted width for proper fit */
+}
+
+select {
+  width: 30%; /* Ensure the dropdown doesn't take up too much space */
+}
+
+/* Buttons */
+.remove-row-btn,
+.send-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.remove-row-btn:hover,
+.send-button:hover {
+  background-color: darkred;
+}
+
+.send-button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.send-button {
+  background-color: #4caf50;
+}
+
+.send-button:hover {
+  background-color: #45a049;
+}
+
+.send-button:active {
+  background-color: #39843c;
+}
+
+/* Error Inputs */
+input.error {
+  border-color: red;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .dynamic-table {
+    font-size: 14px;
+  }
+
+  .dropbtn {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .send-button {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+/* Send Button Hover Effect */
+.send-button:hover {
+  background-color: #f7dc6f; /* Match the Actions button hover color */
+}

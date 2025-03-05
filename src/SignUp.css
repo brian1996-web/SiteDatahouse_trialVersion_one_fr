@@ -1,0 +1,73 @@
+h2 {
+  color: #fff;
+}
+.signup-page {
+  background-color: black; /* Ensure the signup page container is black */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Adjust width for responsiveness */
+  max-width: 1200px; /* Maximum width for larger screens */
+  height: 100%; /* Adjust the height to fit within the viewport */
+  padding: 2rem;
+  /* box-sizing: border-box; */
+  border: 1px solid #f7dc6f; /* Optional border for styling */
+  border-radius: 10px;
+  overflow: hidden; /* Prevent content overflow */
+}
+
+#signup-form {
+  flex: 1;
+  max-width: 400px; /* Keep form width manageable */
+}
+
+input,
+select {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #f7dc6f; /* Highlight the input field borders */
+  background-color: #000000; /* Slightly dark background for inputs */
+  color: white; /* Text color */
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  color: #ccc; /* Light gray placeholder for better visibility */
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #f7dc6f; /* Yellow button */
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ffe66d; /* Lighter yellow on hover */
+}
+
+.signup-image {
+  flex: 1;
+  max-width: 500px; /* Ensure the image doesn't overflow */
+  max-height: 90%; /* Adjust to fit inside the viewport */
+  object-fit: contain;
+  border-radius: 10px;
+  border: 2px solid #f7dc6f; /* Add a border for the image */
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}

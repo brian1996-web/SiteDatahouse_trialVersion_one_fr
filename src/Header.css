@@ -1,0 +1,54 @@
+
+.home {
+  display: flex;
+  gap: 45rem;
+  background-color: #000000;
+  align-items: center;
+  
+}
+.nec-logo{
+height: 100px;
+width: 100px;
+margin-left: 10px;
+border-radius: 21px;
+
+}
+.supervisors{
+  display: flex;
+  gap: 2rem;
+  
+}
+
+.supervisor-title{
+font-size: 20px;
+color:yellow
+
+}
+
+a{
+  text-decoration: none;
+}
+a,.supervisor-title:link,
+.supervisor-title:visited {
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+  
+}
+.supervisor-title:hover,
+.supervisor-title:active{
+  color:#FF0000;
+}
+
+.nav__link:link,
+.nav__link:visited {
+display: inline-block;
+font-weight: 500;
+font-size: 1.8rem;
+transition: all 0.3s;
+}
+.nav__link:hover,
+.nav__link:active{
+  color:#89CFF0 ;
+
+}

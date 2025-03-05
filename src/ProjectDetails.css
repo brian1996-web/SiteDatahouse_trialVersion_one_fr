@@ -1,0 +1,82 @@
+/* Full page layout */
+.project-details-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4; /* Light background */
+  box-sizing: border-box;
+}
+
+/* Header styling */
+.project-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.project-header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.project-header p {
+  font-size: 1.2rem;
+  margin: 10px 0 0;
+}
+
+.project-id {
+  font-weight: bold;
+  color: #007bff; /* Accent color */
+}
+
+/* Graph container styling */
+.graph-container {
+  width: 90%; /* Takes 90% of the available width */
+  max-width: 900px; /* Restrict maximum width for large screens */
+  height: 50vh; /* Make graph take half the viewport height */
+  margin: 20px 0;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Back to Projects button */
+.back-to-projects-button {
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.back-to-projects-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .project-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .project-header p {
+    font-size: 1rem;
+  }
+
+  .graph-container {
+    height: 40vh; /* Smaller graph for smaller screens */
+  }
+
+  .back-to-projects-button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}

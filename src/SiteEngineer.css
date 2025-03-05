@@ -1,0 +1,158 @@
+/* General container background */
+body {
+  background-color: black;
+  color: white; /* Ensures text is visible on a black background */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Reusable Site Title */
+.site-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  cursor: text;
+  color: white; /* Text color for site title */
+}
+
+/* Dynamic Site Type */
+.site-type {
+  text-align: center;
+  font-size: 20px;
+  color: #ccc; /* Lighter gray for the site type */
+  margin-bottom: 20px;
+  cursor: text;
+}
+
+/* Header styling */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  cursor: text;
+  color: white; /* Header text color */
+}
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.dropbtn {
+  background-color: #fff;
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dropbtn:hover {
+  background-color: #f7dc6f; /* Hover background color for dropdown button */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333; /* Dark background for dropdown */
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.dropdown-content button {
+  color: white; /* Text color in the dropdown */
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  text-align: left;
+  cursor: pointer;
+}
+
+.dropdown-content button:hover {
+  background-color: #444; /* Darker hover color */
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Table Styling */
+.dynamic-table- {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: #222; /* Table background color */
+}
+
+.dynamic-table th,
+.dynamic-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  color: white; /* Text color for table cells */
+}
+
+.dynamic-table-container {
+  background-color: black;
+  color: white; /* Change text color to white for visibility */
+  min-height: 100vh; /* Ensure the background color covers the entire page */
+}
+
+
+
+.dynamic-table th {
+  background-color: #333; /* Dark background for table header */
+}
+
+/* Remove Row Button */
+.remove-row-btn {
+  background-color: red; /* Default background color */
+  color: white; /* Text color */
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Styling for the Send Button */
+.send-button {
+  background-color: #fff;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.send-button:hover {
+  background-color: #f7dc6f; /* Hover background color for the send button */
+}
+
+/* Styling for the input fields */
+input {
+  width: 70%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #333; /* Dark background for inputs */
+  color: white; /* White text color */
+}
+
+select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #333; /* Dark background for select */
+  color: white; /* White text color */
+  cursor: pointer;
+}

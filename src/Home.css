@@ -1,0 +1,27 @@
+
+.home-page{
+  background-color: black;
+}
+.home-details {
+  display: flex;
+
+}
+.data-image{
+  margin-top:30px;
+
+}
+.app-detail{
+  margin-top: 60px;
+  margin-left: 15px;
+  font-size: 25px;
+  margin-left: 20px;
+  color: #f7dc6f;
+
+}
+.image{
+  width: 700px;
+  height: auto;
+  margin-top: 30px;
+  margin-right: 25px;
+  border-radius: 15px;
+}
